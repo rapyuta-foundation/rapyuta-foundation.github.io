@@ -1,0 +1,9 @@
+{
+  "saved": "2026-10-17",
+  "supersedes": "v1 (same brushstroke heart, zoom 1.238)",
+  "layout": "A2: bold \"rapyuta\" on top, regular \"foundation\" at the same letter size",
+  "heart": {"style": "imgBrush", "source": "rf_heart_brush_reference.png", "rotate_deg": -10, "zoom": 1.33, "move_x": 20.3, "move_y": 16.8},
+  "gap": {"nearest_black": 21.0, "gap_rule": 35.0, "note": "Deliberately bold: larger than the r/phi rule allows, breaking out of bounds"},
+  "usage_rule": "The wordmark is always part of the logo. The mark is never used on its own.",
+  "files": ["rf_logo_v2_heart.svg", "rf_logo_v2_heart_1600.png"]
+}
