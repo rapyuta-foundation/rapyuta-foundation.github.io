@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Rapyuta Foundation</title>
+<meta name="description" content="Rapyuta Foundation (ラピュタファウンデーション) is a nonprofit certified by the Tokyo Metropolitan Government. Our mission: free and quality education for everyone.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700&display=swap">
+<style>
+:root{
+  /* Rapyuta Robotics brand palette: black, white, Rapyuta Red, grays */
+  --bg:#FFFFFF; --ink:#000000; --muted:#333333; --line:#E0E0E0; --accent:#E11A27; --soft:#F9F9F9;
+  --sans:"Aptos","Segoe UI","Meiryo","Hiragino Sans","Noto Sans JP",system-ui,sans-serif;
+  --serif:var(--sans);
+  color-scheme:light;
+}
+@media (prefers-color-scheme: dark){:root{
+  --bg:#000000; --ink:#FFFFFF; --muted:#CCCCCC; --line:#333333; --accent:#E11A27; --soft:#1A1A1A; color-scheme:dark}}
+*{box-sizing:border-box}
+html,body{margin:0}
+body{background:var(--bg);color:var(--ink);font-family:var(--sans);font-size:16px;line-height:1.75}
+.wrap{max-width:760px;margin:0 auto;padding:56px 20px 72px;display:flex;flex-direction:column;gap:48px}
+header{display:flex;flex-direction:column;gap:10px}
+.name{font-family:var(--sans);font-size:clamp(30px,6vw,44px);line-height:1.15;margin:0;font-weight:700;color:var(--accent)}
+.kana{color:var(--muted);margin:0;font-size:15px}
+.mission{background:var(--soft);border-left:3px solid var(--accent);padding:22px 24px;border-radius:0 8px 8px 0}
+.mission p{margin:0;font-size:clamp(20px,3.6vw,26px);line-height:1.45;font-weight:700}
+.mission p + p{margin-top:6px;font-size:clamp(17px,3vw,20px);color:var(--muted);font-weight:400}
+h2{font-size:13px;letter-spacing:.12em;text-transform:uppercase;color:var(--accent);margin:0 0 10px;font-weight:700}
+section p{margin:0 0 12px;max-width:65ch}
+.cols{display:grid;grid-template-columns:1fr 1fr;gap:32px}
+.cols > div{min-width:0}
+dl{display:grid;grid-template-columns:max-content minmax(0,1fr);gap:8px 20px;margin:0;font-size:15px}
+dt{color:var(--muted)}
+dd{margin:0;overflow-wrap:anywhere}
+a{color:#E11A27;text-decoration:underline;text-underline-offset:3px}
+a:visited{color:#A44319}
+.note{font-size:14px;color:var(--muted);border-top:1px solid var(--line);padding-top:20px}
+@media (max-width:640px){.cols{grid-template-columns:1fr;gap:24px}dl{grid-template-columns:1fr;gap:2px}dd{margin-bottom:10px}}
+</style>
+</head>
+<body>
+<main class="wrap">
+  <header>
+    <h1 class="name">Rapyuta Foundation</h1>
+    <p class="kana">ラピュタファウンデーション · 特定非営利活動法人</p>
+  </header>
+
+  <div class="mission">
+    <p>Free and quality education for everyone.</p>
+    <p lang="ja">すべての人に、無償で質の高い教育を。</p>
+  </div>
+
+  <div class="cols">
+    <section>
+      <h2>About</h2>
+      <p>Rapyuta Foundation is a nonprofit organization certified by the Tokyo Metropolitan Government. It was started by the founders of Rapyuta Robotics in appreciation of the public education systems and the teachers who carried them forward, as a small way of giving something back.</p>
+      <p>We are preparing our first programs. This site will grow as they take shape.</p>
+    </section>
+    <section lang="ja">
+      <h2>概要</h2>
+      <p>ラピュタファウンデーションは、東京都の認証を受けた特定非営利活動法人です。ラピュタロボティクスの創業者たちが、自分たちを支えてくれた公教育の仕組みと先生方への感謝を込めて、その恩を少しでも社会に返すために設立しました。</p>
+      <p>現在、最初の活動の準備を進めています。このサイトも活動とともに充実させていきます。</p>
+    </section>
+  </div>
+
+  <section>
+    <h2>Registration · 法人情報</h2>
+    <dl>
+      <dt>Name · 名称</dt><dd>Rapyuta Foundation (ラピュタファウンデーション)</dd>
+      <dt>Legal form · 法人格</dt><dd>Specified Nonprofit Corporation · 特定非営利活動法人</dd>
+      <dt>Corporate number · 法人番号</dt><dd>1010605004278</dd>
+      <dt>Certified · 認証日</dt><dd>2023-12-18 (令和5年12月18日), Tokyo Metropolitan Government · 東京都</dd>
+      <dt>Office · 主たる事務所</dt><dd>東京都江東区木場五丁目8番40号</dd>
+      <dt>Representatives · 代表者</dt><dd>Arudchelvan Krishnamurthy, Mohanarajah Gajamohan</dd>
+      <dt>Public record · 公開情報</dt><dd><a href="https://www.seikatubunka1.metro.tokyo.lg.jp/houjin/npo_houjin/list/ledger/0014431.html" rel="noopener">Tokyo NPO register · 東京都 NPO法人ポータル</a> (articles, officers, annual reports · 定款・役員名簿・事業報告書)</dd>
+    </dl>
+  </section>
+
+  <p class="note">This page is a placeholder while our full website is being built. · 本ページは正式なウェブサイト公開までの仮ページです。</p>
+</main>
+</body>
+</html>
