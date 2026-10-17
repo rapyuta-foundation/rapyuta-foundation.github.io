@@ -26,6 +26,7 @@ header{display:flex;flex-direction:column;gap:10px}
 .logo{margin:0;line-height:0}
 .logo img{width:min(400px,100%);height:auto;display:block}
 .mission{background:var(--soft);border-left:3px solid var(--accent);padding:22px 24px;border-radius:0 8px 8px 0}
+.mission-label{display:block;margin:0 0 8px;font-size:14px;letter-spacing:.04em;color:var(--muted);font-weight:400}
 .mission p{margin:0;font-size:clamp(20px,3.6vw,26px);line-height:1.45;font-weight:700}
 .mission p + p{margin-top:6px;font-size:clamp(17px,3vw,20px);color:var(--muted);font-weight:400}
 h2{font-size:14px;letter-spacing:.04em;color:var(--accent);margin:0 0 10px;font-weight:700}
@@ -47,13 +48,11 @@ a:visited{color:#A44319}
     <h1 class="logo"><picture><source srcset="rf_logo_v2_white.svg" media="(prefers-color-scheme: dark)"><img src="rf_logo_v2.svg" alt="rapyuta foundation" width="1276" height="363"></picture></h1>
   </header>
 
-  <section>
-    <h2>Core purpose</h2>
-    <div class="mission">
-      <p>free and quality education for everyone</p>
-      <p lang="ja">すべての人に、無償で質の高い教育を</p>
-    </div>
-  </section>
+  <div class="mission">
+    <span class="mission-label">Core purpose</span>
+    <p>free and quality education for everyone</p>
+    <p lang="ja">すべての人に、無償で質の高い教育を</p>
+  </div>
 
   <div class="cols">
     <section>
