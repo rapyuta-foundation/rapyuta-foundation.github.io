@@ -23,8 +23,8 @@ html,body{margin:0}
 body{background:var(--bg);color:var(--ink);font-family:var(--sans);font-size:16px;line-height:1.75}
 .wrap{max-width:760px;margin:0 auto;padding:56px 20px 72px;display:flex;flex-direction:column;gap:48px}
 header{display:flex;flex-direction:column;gap:10px}
-.name{font-family:var(--sans);font-size:clamp(30px,6vw,44px);line-height:1.15;margin:0;font-weight:700;color:var(--accent)}
-.kana{color:var(--muted);margin:0;font-size:15px}
+.logo{margin:0;line-height:0}
+.logo img{width:min(400px,100%);height:auto;display:block}
 .mission{background:var(--soft);border-left:3px solid var(--accent);padding:22px 24px;border-radius:0 8px 8px 0}
 .mission p{margin:0;font-size:clamp(20px,3.6vw,26px);line-height:1.45;font-weight:700}
 .mission p + p{margin-top:6px;font-size:clamp(17px,3vw,20px);color:var(--muted);font-weight:400}
@@ -44,8 +44,7 @@ a:visited{color:#A44319}
 <body>
 <main class="wrap">
   <header>
-    <h1 class="name">rapyuta foundation</h1>
-    <p class="kana">ラピュタファウンデーション · 特定非営利活動法人</p>
+    <h1 class="logo"><picture><source srcset="rf_logo_v2_white.svg" media="(prefers-color-scheme: dark)"><img src="rf_logo_v2.svg" alt="rapyuta foundation" width="1276" height="363"></picture></h1>
   </header>
 
   <div class="mission">
@@ -56,12 +55,12 @@ a:visited{color:#A44319}
   <div class="cols">
     <section>
       <h2>About</h2>
-      <p>Rapyuta Foundation is a nonprofit organization certified by the Tokyo Metropolitan Government. It was started by the founders of Rapyuta Robotics in appreciation of the public education systems and the teachers who carried them forward, as a small way of giving something back.</p>
+      <p>Rapyuta Foundation is a nonprofit organization certified by the Tokyo Metropolitan Government. It was started by the founders of <a href="https://www.rapyuta-robotics.com/" rel="noopener">Rapyuta Robotics</a> in appreciation of the public education systems and the teachers who carried them forward, as a small way of giving something back.</p>
       <p>We are preparing our first programs. This site will grow as they take shape.</p>
     </section>
     <section lang="ja">
       <h2>概要</h2>
-      <p>ラピュタファウンデーションは、東京都の認証を受けた特定非営利活動法人です。ラピュタロボティクスの創業者たちが、自分たちを支えてくれた公教育の仕組みと先生方への感謝を込めて、その恩を少しでも社会に返すために設立しました。</p>
+      <p>ラピュタファウンデーションは、東京都の認証を受けた特定非営利活動法人です。<a href="https://www.rapyuta-robotics.com/" rel="noopener">ラピュタロボティクス</a>の創業者たちが、自分たちを支えてくれた公教育の仕組みと先生方への感謝を込めて、その恩を少しでも社会に返すために設立しました。</p>
       <p>現在、最初の活動の準備を進めています。このサイトも活動とともに充実させていきます。</p>
     </section>
   </div>
